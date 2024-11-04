@@ -1,0 +1,44 @@
+/* univerzalni selector */
+*{
+background-color: burlywood;
+}
+
+
+
+/* element selector */
+h1{
+color:bisque;
+}
+
+
+
+/* class selector */
+.prvi{
+color: coral;
+}
+
+.drugi{
+color: yellow;
+}
+
+.treci{
+color: turquoise;
+}
+
+
+
+/* id selector */
+#cetvrti{
+color: crimson;
+}
+
+
+
+/* atribut selector */
+p[draggable="true"]{
+    color: salmon;
+}
+
+p[draggable="false"]{
+    color: royalblue;
+}
