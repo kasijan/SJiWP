@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo klase</title>
+
+
+    <style>
+        
+.prvi{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: transform 1s;
+    top: 0px;
+    left: 0px;
+}
+
+.drugi{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    transition: transform 1s;
+    left: 200px;
+}
+
+.treci{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    top: 200px;
+    transition: transform 1s ease;
+}
+
+.cetvrti{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    top: 200px;
+    left: 200px;
+    transition: transform 1s ease;
+}
+
+.glavni{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    position: relative;
+
+
+}
+
+.glavni:hover .prvi{
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.glavni:hover .drugi{ 
+    transform: rotate(-90deg);
+    transform-origin: top right;
+}
+
+.glavni:hover .treci{ 
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+.glavni:hover .cetvrti{ 
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+
+    
+
+
+
+
+
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="glavni">
+    <div class="prvi"></div>
+    <div class="drugi"></div>
+    <div class="treci"></div>
+    <div class="cetvrti"></div>
+    </div>
+    <div class="p"></div>
+    <div class="d"></div>
+    <div class="t"></div>
+</body>
+</html>
