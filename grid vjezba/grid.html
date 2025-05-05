@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Vježba</title>
+</head>
+
+    <style>
+body{
+
+    font-size: 2.5rem;
+    font-weight:bolder;
+
+}
+.container {
+      height: 350px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.class{
+
+    background-color:grey;
+    grid-column: span 2;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+   
+}
+
+
+.container2 {
+      height: 350px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.class2{
+
+    background-color:grey;
+    grid-column: span 2;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+    order: 2;
+   
+}
+.class3{
+
+background-color:grey;
+grid-column: span 2;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 4;
+
+
+}
+.class4{
+
+background-color:grey;
+grid-column: span 2;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 5;
+
+}
+.class5{
+
+background-color:grey;
+grid-column: span 2;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 1;
+
+}
+.class6{
+
+background-color:grey;
+grid-column: span 2;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 3;
+
+}
+.class7{
+
+background-color:grey;
+grid-column: span 2;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 2;
+
+}
+
+
+.container3{
+      height: 350px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1.5fr;
+      grid-template-rows: 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.classa {
+      font-size: 2rem;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      grid-column: span 2;
+      
+    }
+
+    .classb{
+
+      order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      background-color: grey;
+        border-radius: 10px;
+      grid-row: span 2;
+      order: 0;
+
+    }
+
+    .classc{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+      background-color: grey;
+   
+      border-radius: 10px;
+
+
+    }
+.classd{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+
+}
+
+
+.container4{
+      height: 400px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      
+      margin: 40px;
+}
+
+
+.classa1{
+      font-size: 2rem;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      grid-column: span 2;
+
+
+      
+    }
+
+    .classb1{
+
+      order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      background-color: grey;
+        border-radius: 10px;
+        grid-column: span 2;
+
+      order: 0;
+
+    }
+
+    .classc1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+      background-color: grey;
+      grid-column: span 0;
+      border-radius: 10px;
+
+
+    }
+.classd1{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+grid-column: span 3;
+
+}
+
+.classe1{
+      font-size: 2rem;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      grid-column-start: -5;
+      grid-column-end: -1;
+
+      
+    }
+
+    .container5{
+      height: 550px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.classa2{
+      font-size: 2rem;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+        grid-column: span 2;
+      order: 0;
+      
+    }
+
+    .classb2{
+
+      order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      background-color: grey;
+        border-radius: 10px;
+    grid-row: span 2;
+      order: 1;
+
+    }
+
+    .classc2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+      background-color: grey;
+   
+      border-radius: 10px;
+      order: 2;
+
+
+    }
+.classd2{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order:4;
+
+}
+.classe2{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 1;
+grid-row: span 2;
+
+}
+
+
+.container6{
+      height: 500px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.classa3{
+      font-size: 2rem;
+      color: white;
+      background-color: grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      grid-column: span 5;
+      order: 0;
+
+      
+    }
+
+    .classb3{
+
+      order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      background-color: black;
+        border-radius: 10px;
+        order: 0;
+        grid-row: span 2;
+        
+
+    }
+
+    .classc3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+      background-color: black;
+   
+      border-radius: 10px;
+      order: 0;
+      grid-column: span 4;
+      grid-row: span 2;
+
+
+    }
+.classd3{
+
+background-color: grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 0;
+grid-column: span 5;
+
+}
+.classe3{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+order: 0;
+grid-column: span 5;
+}
+
+.container7{
+      height: 350px;
+      width: 90vw;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      
+      margin: 40px;
+}
+
+.classbr1{
+
+    background-color:grey;
+
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    border-radius: 10px;
+}
+.classbr2{
+
+background-color:grey;
+;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr3{
+
+background-color:grey;
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr4{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr5{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr6{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr7{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr8{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr9{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr10{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr11{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+.classbr12{
+
+background-color:grey;
+
+color: white;
+align-items: center;
+display: flex;
+justify-content: center; 
+border-radius: 10px;
+}
+
+.p{
+
+    background-color: grey;
+
+
+
+}
+
+.np{
+
+    background-color: black;
+
+}
+
+
+    </style>
+<body>
+    
+    <div class="container">
+
+        <div class="class">A</div>
+        <div class="class">B</div>
+        <div class="class">C</div>
+        <div class="class">D</div>
+        <div class="class">E</div>
+        <div class="class">F</div>
+
+    </div>
+<hr>
+
+
+<div class="container2">
+
+    <div class="class2">A</div>
+    <div class="class3">B</div>
+    <div class="class4">C</div>
+    <div class="class5">D</div>
+    <div class="class6">E</div>
+    <div class="class7">F</div>
+
+</div>
+
+<hr>
+
+<div class="container3">
+
+    <div class="classa box">A</div>
+    <div class="classb box">B</div>
+    <div class="classc box">C</div>
+    <div class="classd box">D</div>
+    
+</div>
+<hr>
+<div class="container4">
+
+    <div class="classa1 box">A</div>
+    <div class="classb1 box">B</div>
+    <div class="classc1 box">C</div>
+    <div class="classd1 box">D</div>
+    <div class="classe1 box">E</div>
+        
+</div>
+
+<hr>
+
+
+<div class="container5">
+
+    <div class="classa2 box">A</div>
+    <div class="classb2 box">B</div>
+    <div class="classc2 box">C</div>
+    <div class="classd2 box">D</div>
+    <div class="classe2 box">E</div>
+        
+</div>
+
+<hr>
+
+<div class="container6">
+
+    <div class="classa3 box">Header</div>
+    <div class="classb3 box">Sidebar</div>
+    <div class="classc3 box">content More content tahn we had before so this column is now quite tall.</div>
+    <div class="classd3 box">Sidebar2</div>
+    <div class="classe3 box">Footer</div>
+        
+</div>
+
+<hr>
+
+<div class="container7">
+
+    <div class="classbr1 np">1</div>
+    <div class="classbr2 p">2</div>
+    <div class="classbr3 np">3</div>
+    <div class="classbr4 p">4</div>
+    <div class="classbr5 np">5</div>
+    <div class="classbr6 p">6</div>
+    <div class="classbr7 np">7</div>
+    <div class="classbr8 p">8</div>
+    <div class="classbr9 np">9</div>
+    <div class="classbr10 p">10</div>
+    <div class="classbr11 np">11</div>
+    <div class="classbr12 p">12</div>
+        
+</div>
+
+</body>
+</html>
